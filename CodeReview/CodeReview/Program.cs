@@ -7,7 +7,7 @@ var foo = new Foo<double>(1.5d);
 
 foo.LogToConsole("Hello world");
 
-await foo.LogtoFile("Hello world");
+await foo.LogtoFileAsync("Hello world");
 
 var result1 = Foo<double>.DoCalc(1, 2); 
 
