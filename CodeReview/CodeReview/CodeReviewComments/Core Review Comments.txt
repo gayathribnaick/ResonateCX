@@ -1,0 +1,7 @@
+﻿1. Changed boxing of int to Convert.ToInt32 in line return (int)arg1 + Convert.ToInt32(arg2) / Convert.ToInt32(StartValue);
+2. Corrected function name of higherOrderCalculation()
+3. Changed Func paramter to camel case since its a parameter.
+4. Added summary for all functions to be more readable.
+5. Removed string.Format in LogToConsole function since there are no additional parameters to add in formatting.
+6. Added await in the async function call.
+7. Added Aync keyword to LogToFile function to notify used that function is Async.
